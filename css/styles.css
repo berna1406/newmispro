@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+
+}
+#navbar1{
+    height: 60px;
+    background-color: blanchedalmond;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+}
+
+#brandlogo{
+    margin-left: 50px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+#brandlogo img{
+    height: 50px;
+}
+
+#brandlogo h1{
+    color: brown;
+    margin-left: 10px;
+}
+
+#menudiv{
+    width: 45%;
+    /* background-color: brown; */
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 50px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    /* color: white; */
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+    /* background-color: rgb(239, 155, 30); */
+    justify-content: space-around;
+}
+
+#maindiv{
+    height: 400px;
+    width: 55%;
+    /* background-color: lightsalmon; */
+    margin-left: 22%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 1px gray;
+    display: flex;
+
+}
+
+#imgdiv{
+    width: 40%;
+    height: 100%;
+    background-image: url('../images/regimage.webp');
+    background-size: cover;
+    background-position: center;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+
+#formdiv{
+    width: 60%;
+    height: 100%;
+    /* background-color: rgb(158, 94, 15); */
+}
+
+#registerform{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+    /* background-color: blueviolet; */
+    gap: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 18%;
+}
+
+.inputtext{
+
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: blanchedalmond;
+
+}
+
+#submitbtn{
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
